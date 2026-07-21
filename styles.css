@@ -1,8 +1,8 @@
 :root {
-  --blue: #3945e8;
-  --blue-dark: #2632cc;
-  --ink: #24284a;
-  --muted: #686d8e;
+  --blue: #343638;
+  --blue-dark: #202224;
+  --ink: #292b2d;
+  --muted: #686a6c;
   --paper: #f3f3f5;
   --white: #fff;
 }
@@ -27,7 +27,7 @@ body {
   display: grid;
   grid-template-columns: 38% 62%;
   background: var(--paper);
-  box-shadow: 0 24px 80px rgb(25 30 70 / 18%);
+  box-shadow: 0 24px 80px rgb(20 22 24 / 18%);
 }
 
 .sidebar {
@@ -184,7 +184,7 @@ li::marker { color: var(--blue); }
   grid-template-columns: 34% 66%;
   gap: 22px;
   padding: 18px 0 18px 20px;
-  border-left: 2px solid #c8cbea;
+  border-left: 2px solid #c8c9ca;
 }
 
 .timeline-item::before {
