@@ -25,14 +25,14 @@ body {
   min-height: 100vh;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 38% 62%;
+  grid-template-columns: 32% 68%;
   background: var(--paper);
   box-shadow: 0 24px 80px rgb(20 22 24 / 18%);
 }
 
 .sidebar {
   display: grid;
-  grid-template-rows: minmax(520px, 52vh) 1fr;
+  grid-template-rows: minmax(450px, 47vh) 1fr;
   background: var(--blue);
   color: var(--white);
 }
@@ -58,11 +58,11 @@ body {
   height: 100%;
   display: block;
   object-fit: cover;
-  object-position: center 34%;
+  object-position: center 31%;
   filter: saturate(.82) contrast(1.03);
 }
 
-.sidebar-content { padding: 56px 64px; }
+.sidebar-content { padding: 50px 46px; }
 
 h1, h2, h3, p { margin-top: 0; }
 
